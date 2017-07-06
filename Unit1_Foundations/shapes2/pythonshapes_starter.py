@@ -18,4 +18,23 @@ t.setposition(x_pos, y_pos)
 
 
 # Close window on click.
+
+t.pencolor("8A2BE2,FF7F50,9932CC")
+
+
+
+sides = input("hello! How ay sides?")
+inside = int(sides)
+
+
+
+# Close window on click.
+
+
+
+for draw in range (inside):
+    forward (50)
+    right (360/sides)
+fill color=("green")
+
 exitonclick()
